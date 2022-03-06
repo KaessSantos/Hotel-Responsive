@@ -354,21 +354,34 @@ button:hover{
     nav ul{
         position: absolute;
         top: 4%;
+    }   
+
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
     }
+
+    
 
     #inter-lig{
         background-image: url(images/icon_play.svg);
         background-repeat: no-repeat;
-        background-position: center;
-        background-size:8%;
-        background-position-y: 15%;
+        background-position:center;
+        background-size:7%;
+        background-position-y:5%;
         padding-top: 130px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: auto;
     }
 
     #inter-p1{
         padding: 10px;
         margin-bottom: 25px;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         color: white;
         font-weight: 600;
     }
@@ -377,8 +390,6 @@ button:hover{
         color: white;
         font-weight: 600;
         margin-bottom: 15px;
-        margin-left: 10px;
-        margin-right: 10px;
         line-height: 1.5;
     }
 
