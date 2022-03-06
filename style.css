@@ -8,6 +8,9 @@
 }
 
 /*header*/
+body{
+    overflow-x: hidden;
+}
 
 header{
     width: 100%;
@@ -145,7 +148,7 @@ button:hover{
 }
 
 .infor-produt-02{
-    width: 100%;
+    width: 90%;
     height: 100%;
     text-align: left;
     margin-left: 40px;
@@ -336,6 +339,8 @@ button:hover{
     footer ul{
         width: 100%;
     }
+
+    
  }
 
  @media screen and (min-width: 1000px){
